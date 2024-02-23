@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPerfume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del perfume"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txtprecioa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio_Alto"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/txtPreciob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio Bajo"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>
